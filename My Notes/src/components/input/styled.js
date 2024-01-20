@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 
-export const Component = styled.input `
+export const Component = styled.div `
 
 
 width: 100%;
@@ -17,7 +17,13 @@ color: white;
 
 
 
+input{
+  background: none;
+  border: none;
 
+  color: white;
+  
+}
 
 
 

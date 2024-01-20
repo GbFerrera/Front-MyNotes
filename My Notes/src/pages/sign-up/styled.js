@@ -1,7 +1,10 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
-  display: flex;
+
+
+export const Container = styled.div `
+
+display: flex;
   justify-content: space-between;
   height: 100vh;
 
@@ -9,7 +12,7 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+    margin: auto;
 
     text-align: center;
 
@@ -26,8 +29,8 @@ export const Container = styled.div`
 
   #itens {
     width: 100%;
-    padding: 130px 160px 0;
-  
+    padding: 110px 160px 0;
+    
   }
 
   main {
@@ -79,4 +82,10 @@ export const Container = styled.div`
       display: none;
     }
   }
-`;
+
+
+
+
+
+
+`

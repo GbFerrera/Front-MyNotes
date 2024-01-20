@@ -2,6 +2,8 @@ import { Container } from "./styled";
 import { Button } from "../../components/button";
 import {Input} from "../../components/input"
 
+import { FiMail, FiLock } from 'react-icons/fi'
+
 import image from "../../assets/login.svg"
 
 export function SignIn() {
@@ -18,11 +20,13 @@ export function SignIn() {
 
         <h3>Faça seu login</h3>
 
-        <Input title={"E-mail"}/>
-        <Input title={"Senha"}/>
-    
-     <Button title={"Entrar"}/>
+        <form>
 
+        <Input type="email" icon={FiMail} title={"E-mail"}/>
+        <Input type="password" icon={FiLock} title={"Senha"}/>
+    
+      <Button type="button" title={"Entrar"}/>
+      </form>
      <a href="#">Criar conta</a>
         </main>
       </div>
