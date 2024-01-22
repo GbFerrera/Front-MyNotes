@@ -29,12 +29,12 @@ a {
   text-decoration: none;
 }
 
-button, a {
+button, a , label {
   cursor: pointer;
   transition: filter 0.2s;
 }
 
-button:hover, a:hover {
+label:hover , button:hover, a:hover {
   filter: brightness(0.9);
 }
 
