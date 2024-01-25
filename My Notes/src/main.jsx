@@ -9,6 +9,7 @@ import  {SignIn}  from "./pages/sign-In";
 import { SignUp } from "./pages/sign-up";
 import { Profile } from "./pages/profile";
 import { Home } from "./pages/home";
+import { NotePreview } from "./pages/note-preview";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -16,7 +17,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <ThemeProvider theme={theme}>
 
        <GlobalStyle/>
-          <Home />
+          <NotePreview />
 
     </ThemeProvider>
   </React.StrictMode>

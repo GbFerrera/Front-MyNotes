@@ -5,12 +5,10 @@ import styled from "styled-components";
 export const Container = styled.div `
 
 
-
-
 #bg {
 
 height: 144px;
-width: 100%;
+width: 100%   ;
 background: #232129;
 
 }

@@ -12,7 +12,7 @@ color: #312E38;
 padding: 16px;
 
 border-radius: 10px;
-
+border: none;
 
 
 
